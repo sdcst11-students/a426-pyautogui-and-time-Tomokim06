@@ -3,6 +3,7 @@
 import random
 import keyboard
 import time
+import mouse
 
 """
 Task 1
@@ -22,7 +23,7 @@ code up into more manageable sections.
 Your assignment will be graded on the following criteria:
 
 functionality (does it work the way it is intended)
-modularity (is it broken up into functions to make your main block momre readable)
+modularity (is it broken up into functions to make your main block more readable)
 appropriate use of return values and input parameters
 
 """
@@ -41,3 +42,5 @@ while True:
     print(t)
     print(time.strftime("%H",t))
     break
+
+
